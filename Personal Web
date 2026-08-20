@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Yide (Lucas) Liu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #111827;
+      --accent: #38bdf8;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #1e293b 0, #020617 55%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .page {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 32px 16px 64px;
+    }
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid #1f2937;
+      padding-bottom: 16px;
+    }
+    .title-block h1 {
+      margin: 0;
+      font-size: 2rem;
+      letter-spacing: 0.03em;
+    }
+    .title-block h2 {
+      margin: 4px 0 0;
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: var(--muted);
+    }
+    .contact {
+      text-align: right;
+      font-size: 0.9rem;
+    }
+    .contact a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+    }
+    section {
+      margin-bottom: 28px;
+      background: rgba(15, 23, 42, 0.85);
+      border-radius: 12px;
+      padding: 18px 20px;
+      border: 1px solid #1f2937;
+    }
+    section h3 {
+      margin-top: 0;
+      font-size: 1.05rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+    .item {
+      margin-bottom: 14px;
+    }
+    .item:last-child {
+      margin-bottom: 0;
+    }
+    .item-header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 6px;
+      font-size: 0.95rem;
+      font-weight: 600;
+    }
+    .item-sub {
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+    ul {
+      margin: 6px 0 0;
+      padding-left: 18px;
+      font-size: 0.9rem;
+    }
+    li {
+      margin-bottom: 4px;
+    }
+    .tagline {
+      margin-top: 8px;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    @media (max-width: 640px) {
+      header { text-align: left; }
+      .contact { text-align: left; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="title-block">
+        <h1>Yide (Lucas) Liu</h1>
+        <h2>Global Corporate &amp; Investment Banking | LevFin &amp; Real Estate</h2>
+        <p class="tagline">
+          Oxford MSc Financial Economics graduate with experience across leveraged finance, real estate refinancing,
+          and private equity fund facilities.
+        </p>
+      </div>
+      <div class="contact">
+        <div><a href="mailto:yideliu1101@gmail.com">yideliu1101@gmail.com</a></div>
+        <div>+852 7018 7368 · +86 158 5294 2242</div>
+        <div>Hong Kong · London · Shanghai</div>
+        <div><a href="https://github.com/yideliu" target="_blank">GitHub</a></div>
+      </div>
+    </header>
+
+    <section id="education">
+      <h3>Education</h3>
+
+      <div class="item">
+        <div class="item-header">
+          <span>The University of Oxford</span>
+          <span>Oxford, United Kingdom · Sep 2023 – Feb 2026</span>
+        </div>
+        <div class="item-sub">Master of Science in Financial Economics · Academic Performance: Distinction</div>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>The University of Melbourne</span>
+          <span>Melbourne, Australia · Feb 2020 – Mar 2023</span>
+        </div>
+        <div class="item-sub">
+          Bachelor of Commerce in Finance and Economics · WAM: 90/100 (GPA 4.0/4.0)
+        </div>
+        <ul>
+          <li>Chamber of Commerce Exhibition for Intermediate Macroeconomics 2021 (1st of 600+ students)</li>
+          <li>Dean's Honor List (top 3% of cohort); Melbourne International Undergraduate Scholarship</li>
+          <li>Master Class invitation (top 30 in Economics)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h3>Work Experience</h3>
+
+      <div class="item">
+        <div class="item-header">
+          <span>MUFG · Global Corporate &amp; Investment Banking</span>
+          <span>Hong Kong · Jan 2026 – Present</span>
+        </div>
+        <div class="item-sub">Graduate Analyst (previously Summer Analyst, Jul 2025 – Sep 2025)</div>
+        <ul>
+          <li>
+            USD1.2bn refinancing of Brookfield Strategic Real Estate Partners III China retail portfolio:
+            structured onshore–offshore refinancing with USD875m offshore syndicated facility (MUFG 50% underwrite)
+            and RMB2.1bn onshore secured debt linked via intercreditor arrangements.
+          </li>
+          <li>
+            Prepared NDAs, deal screening papers, credit memos, and scenario-based financial models to assess covenant
+            compliance and downside resilience.
+          </li>
+          <li>
+            Analysed Letter of Undertaking clauses and recommended revisions, improving enforceability and lender protection.
+          </li>
+          <li>
+            Led internal execution processes: meeting minutes, KYC &amp; onboarding, limit booking, and facility setup.
+          </li>
+        </ul>
+        <ul>
+          <li>
+            USD4.4bn syndicated subscription credit facility for BPEA EQT Private Equity Fund IX:
+            supported credit memo drafting and independently handled deal screening to obtain management approval.
+          </li>
+          <li>
+            Reviewed CP documentation and legal opinions, coordinated with middle office on limit booking and facility setup
+            ahead of first drawdown.
+          </li>
+        </ul>
+        <ul>
+          <li>
+            USD563m HoldCo recap financing against PAG’s stake in Dalian Newland Commercial Management:
+            prepared sources &amp; uses analysis and scenario-based financial metrics to assess covenant headroom and downside sensitivity.
+          </li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>Haitong International · Investment Banking Division</span>
+          <span>Hong Kong · Jun 2024 – Aug 2024</span>
+        </div>
+        <div class="item-sub">Summer Intern</div>
+        <ul>
+          <li>
+            HKD390m H-share IPO (GUOFUHEE: 02582.HK): participated in walk-through tests, evaluated revenue recognition
+            and bookkeeping quality.
+          </li>
+          <li>
+            Coordinated TPDD with legal, compliance, and audit parties to verify business partnerships and disclosures.
+          </li>
+          <li>
+            Led a 30-page hydrogen energy industry research project, covering fuel cell principles, key players across the value chain,
+            and emerging client opportunities.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h3>Projects</h3>
+
+      <div class="item">
+        <div class="item-header">
+          <span>Air Thread Connection Valuation Case Study</span>
+          <span>Oxford, United Kingdom</span>
+        </div>
+        <ul>
+          <li>Projected free cash flow and identified non-operating assets (cash and securities).</li>
+          <li>Built 5-year balance sheet forecasts excluding non-operating assets based on explicit assumptions.</li>
+          <li>Selected appropriate cost of equity and cost of debt, applied WACC to derive enterprise value and equity value.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>Juxon Capital Partners Limited · Search Fund Program</span>
+          <span>London, United Kingdom · Jul 2023 – Sep 2023</span>
+        </div>
+        <ul>
+          <li>
+            Screened 100+ UK companies in the education &amp; training sector using FAME and Companies House data to identify
+            high-potential acquisition targets.
+          </li>
+          <li>
+            Supported remote due diligence and comparable case studies for shortlisted targets.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h3>Skills</h3>
+      <div class="item">
+        <ul>
+          <li><strong>Programming &amp; Quant:</strong> R, MATLAB, Python</li>
+          <li><strong>Finance Tools:</strong> Bloomberg, Capital IQ, Wind, iFinD, Preqin, Dealogic</li>
+          <li><strong>Productivity:</strong> Microsoft Office Suite (advanced Excel), financial modelling, scenario analysis</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
